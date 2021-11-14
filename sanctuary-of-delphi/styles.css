@@ -1,0 +1,417 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.menu-container {
+    color: #fff;
+    background-color: #002c5e;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+  }
+
+.menu {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+.login {
+    margin-left: 20px;
+  }
+
+.signup {
+    margin-left: auto;
+  }
+
+.banner-container {
+    background-color: black;
+    text-align: center;
+  }
+
+.banner {
+    text-align: center;
+  }
+
+.delphi-container {
+  border: 1px solid blue;
+  background-color: black;
+  color: white;
+  padding: 60px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  }
+
+  /*Description*/
+.delphi-description {
+    border: 1px solid red;
+    font-family: "TimesNewRoman";
+    padding: 1vh 1vw;
+    display: flex;
+  }
+.delphi-description-title {
+    border: 1px solid red;
+    text-align: left;
+    font-family: "TimesNewRoman";
+    font-size: 14vh;
+  }
+.delphi-description-pic-container {
+    padding-left: 1vw;
+  }
+.delphi-description-pic-title {
+    font-size: 4vh;
+  }
+.delphi-description-pic-image {
+    padding-top: 18vh;
+    padding-right: 2vh;
+  }
+.delphi-description-text {
+    text-indent: 3vw;
+    text-align: left;
+    font-size: 6vh;
+    padding-top: 8vh;
+    padding-left: 1vw;
+  }
+
+.delphi-description-2 {
+    border: 1px solid red;
+    font-family: "TimesNewRoman";
+    padding: 1vh 1vw;
+    display: flex;
+  }
+.delphi-description-2-pic-container {
+    padding-left: 1vw;
+  }
+.delphi-description-2-pic-title {
+    font-size: 4vh;
+  }
+.delphi-description-2-pic-image {
+    padding-top: 20vh;
+    padding-right: 2vh;
+  }
+.delphi-description-2-text {
+    text-indent: 3vw;
+    text-align: left;
+    font-size: 6vh;
+    padding-top: 10vh;
+    padding-bottom:15vh;
+    padding-left: 1vw;
+  }
+  /*End Description*/
+
+  /*Oracle Section*/
+.delphi-oracle {
+    border: 1px solid red;
+    font-family: "TimesNewRoman";
+    padding: 1vh 1vw;
+    display: flex;
+  }
+.delphi-oracle-title {
+    border: 1px solid red;
+    text-align: left;
+    font-family: "TimesNewRoman";
+    font-size: 14vh;
+  }
+.delphi-oracle-pic-container {
+    padding-left: 2vw;
+  }
+.delphi-oracle-pic-title {
+    font-size: 4vh;
+  }
+.delphi-oracle-pic-image {
+    padding-top: 16vh;
+    padding-right: 2vh;
+  }
+.delphi-oracle-text {
+    text-indent: 3vw;
+    text-align: left;
+    font-size: 6vh;
+    padding-top: 6vh;
+    padding-bottom:15vh;
+    padding-left: 1vw;
+  }
+  /*End Oracle Section*/
+
+  /*Apollo Section*/
+.delphi-apollo {
+    border: 1px solid red;
+    font-family: "TimesNewRoman";
+    padding: 1vh 1vw;
+    display: flex;
+  }
+.delphi-apollo-title {
+    border: 1px solid red;
+    text-align: left;
+    font-family: "TimesNewRoman";
+    font-size: 14vh;
+  }
+.delphi-apollo-pic-container {
+    padding-left: 2vw;
+  }
+.delphi-apollo-pic-title {
+    font-size: 4vh;
+  }
+.delphi-apollo-pic-image {
+    padding-top: 16vh;
+    padding-right: 2vh;
+  }
+.delphi-apollo-text {
+    text-indent: 3vw;
+    text-align: left;
+    font-size: 6vh;
+    padding-top: 6vh;
+    padding-left: 1vw;
+  }
+
+.delphi-apollo-2 {
+    border: 1px solid red;
+    font-family: "TimesNewRoman";
+    padding: 1vh 1vw;
+    display: flex;
+  }
+.delphi-apollo-2-pic-container {
+    padding-right: 2vw;
+  }
+.delphi-apollo-2-pic-title {
+    font-size: 4vh;
+  }
+.delphi-apollo-2-pic-image {
+    padding-top: 16vh;
+    padding-right: 2vh;
+  }
+.delphi-apollo-2-text {
+    text-indent: 3vw;
+    text-align: left;
+    font-size: 6vh;
+    padding-top: 6vh;
+    padding-bottom:15vh;
+    padding-left: 1vw;
+  }
+
+  /*End Apollo Section*/
+
+  /*Tholos Section*/
+.delphi-tholos {
+    border: 1px solid red;
+    font-family: "TimesNewRoman";
+    padding: 1vh 1vw;
+    display: flex;
+  }
+.delphi-tholos-title {
+    border: 1px solid red;
+    text-align: left;
+    font-family: "TimesNewRoman";
+    font-size: 14vh;
+  }
+.delphi-tholos-pic-container {
+    padding-left: 2vw;
+  }
+.delphi-tholos-pic-title {
+    font-size: 4vh;
+  }
+.delphi-tholos-pic-image {
+    padding-top: 8vh;
+    padding-right: 2vh;
+  }
+.delphi-tholos-text {
+    text-indent: 3vw;
+    text-align: left;
+    font-size: 6vh;
+    padding-top: 6vh;
+    padding-left: 1vw;
+  }
+
+.delphi-tholos-2 {
+    border: 1px solid red;
+    font-family: "TimesNewRoman";
+    padding: 1vh 1vw;
+    display: flex;
+  }
+.delphi-tholos-2-pic-container {
+    padding-right: 2vw;
+  }
+.delphi-tholos-2-pic-title {
+    font-size: 4vh;
+  }
+.delphi-tholos-2-pic-image {
+    padding-top: 10vh;
+    padding-right: 2vh;
+  }
+.delphi-tholos-2-text {
+    text-indent: 3vw;
+    text-align: left;
+    font-size: 6vh;
+    padding-top: 8vh;
+    padding-left: 1vw;
+  }
+
+.delphi-tholos-3 {
+    border: 1px solid red;
+    font-family: "TimesNewRoman";
+    padding: 1vh 1vw;
+    display: flex;
+  }
+.delphi-tholos-3-pic-container {
+    padding-left: 2vw;
+  }
+.delphi-tholos-3-pic-title {
+    font-size: 4vh;
+  }
+.delphi-tholos-3-pic-image {
+    padding-top: 19vh;
+    padding-right: 2vh;
+  }
+.delphi-tholos-3-text {
+    text-indent: 3vw;
+    text-align: left;
+    font-size: 6vh;
+    padding-top: 8vh;
+    padding-bottom:15vh;
+    padding-left: 1vw;
+  }
+  /*End Tholos Section*/
+
+  /*Theatre Section*/
+.delphi-theatre {
+    border: 1px solid red;
+    font-family: "TimesNewRoman";
+    padding: 1vh 1vw;
+    display: flex;
+  }
+.delphi-theatre-title {
+    border: 1px solid red;
+    text-align: left;
+    font-family: "TimesNewRoman";
+    font-size: 14vh;
+  }
+.delphi-theatre-pic-container {
+    padding-left: 2vw;
+  }
+.delphi-theatre-pic-title {
+    font-size: 4vh;
+  }
+.delphi-theatre-pic-image {
+    padding-top: 18vh;
+    padding-right: 2vh;
+  }
+.delphi-theatre-text {
+    text-indent: 3vw;
+    text-align: left;
+    font-size: 6vh;
+    padding-top: 6vh;
+    padding-left: 1vw;
+  }
+
+.delphi-theatre-2 {
+    border: 1px solid red;
+    font-family: "TimesNewRoman";
+    padding: 1vh 1vw;
+    display: flex;
+  }
+.delphi-theatre-2-pic-container {
+    padding-right: 2vw;
+  }
+.delphi-theatre-2-pic-title {
+    font-size: 4vh;
+  }
+.delphi-theatre-2-pic-image {
+    padding-top: 10vh;
+    padding-right: 2vh;
+  }
+.delphi-theatre-2-text {
+    text-indent: 3vw;
+    text-align: left;
+    font-size: 6vh;
+    padding-top: 6vh;
+    padding-bottom: 15vh;
+    padding-left: 1vw;
+  }
+  /*End Theatre Section*/
+
+  /*Stadium Section*/
+.delphi-stadium {
+    border: 1px solid red;
+    font-family: "TimesNewRoman";
+    padding: 1vh 1vw;
+    display: flex;
+  }
+.delphi-stadium-title {
+    border: 1px solid red;
+    text-align: left;
+    font-family: "TimesNewRoman";
+    font-size: 14vh;
+  }
+.delphi-stadium-pic-container {
+    padding-left: 2vw;
+  }
+.delphi-stadium-pic-title {
+    font-size: 4vh;
+  }
+.delphi-stadium-pic-image {
+    padding-top: 15vh;
+    padding-right: 2vh;
+  }
+.delphi-stadium-text {
+    text-indent: 3vw;
+    text-align: left;
+    font-size: 6vh;
+    padding-top: 6vh;
+    padding-left: 1vw;
+  }
+
+.delphi-stadium-2 {
+    border: 1px solid red;
+    font-family: "TimesNewRoman";
+    padding: 1vh 1vw;
+    display: flex;
+  }
+.delphi-stadium-2-pic-container {
+    padding-left: 2vw;
+  }
+.delphi-stadium-2-pic-title {
+    font-size: 4vh;
+  }
+.delphi-stadium-2-pic-image {
+    padding-top: 18vh;
+    padding-right: 2vh;
+  }
+.delphi-stadium-2-text {
+    text-indent: 3vw;
+    text-align: left;
+    font-size: 6vh;
+    padding-top: 6vh;
+    padding-left: 1vw;
+  }
+
+.delphi-stadium-3 {
+    border: 1px solid red;
+    font-family: "TimesNewRoman";
+    padding: 1vh 1vw;
+    display: flex;
+  }
+.delphi-stadium-3-pic-container {
+    padding-left: 2vw;
+  }
+.delphi-stadium-3-pic-title {
+    font-size: 4vh;
+    padding-bottom: 15vh;
+  }
+.delphi-stadium-3-pic-image {
+    padding-top: 18vh;
+    padding-right: 2vh;
+  }
+.delphi-stadium-3-text {
+    text-indent: 3vw;
+    text-align: left;
+    font-size: 6vh;
+    padding-top: 6vh;
+    padding-bottom: 15vh;
+    padding-left: 1vw;
+  }
+  /*End Stadium Section*/
+
+  /*Treasury Section*/
+  /*End Treasury Section*/
+
