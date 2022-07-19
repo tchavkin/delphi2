@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css"/>
+<title>Sanctuary of Delphi</title>
+</head>
+<body onload="startTime()">
+    <div class="menu-container">
+        <div class="menu">
+          <div class="clock-container"> Current Time in Delphi:
+              <div id="clockDisplay"></div>
+          </div>
+          <div class="signup">Sign Up</div>
+          <div class="login">Login</div>
+        </div>
+    </div>
+    <div class="banner-container">
+        <div class="banner"><img src="assets\panorama-athena-pronaia.png" width="1200vw" height="500vh"/>
+        </div>
+    </div>
+
+    <div class="delphi-container">
+        <div class="delphi-description-title">
+            <p>-<u>Sanctuary of Delphi</u></p>
+        </div>
+        <div class="delphi-description">
+            <div class="delphi-description-text">
+                <p>In an ancient world which brimmed-full with fantastic, larger-than-life architecture 
+                    and religious tradition, the glory of ancient Delphi stood out as a crown jewel of 
+                    Greek culture.
+                </p>
+                    <div class ="delphi-description-text-2">
+                        <p>Considered during its heyday to be the geographical center of 
+                        the world, Delphi was a place of peace and high religious ceremony. Delphi 
+                        was also home to the Pythian Games, one of the four major international Greek games, where the 
+                        best athletes in the Greek world would compete for the honor of their homelands. There also 
+                        lived the Oracles of Delphi, whom kings and commoners alike would beseech for divine advice.
+                        </p>
+                    </div>
+            </div>
+            <div class="delphi-description-pic-container">
+                <div class ="delphi-description-pic-image">
+                    <a href ="https://en.wikipedia.org/wiki/Delphi#/media/File:Delphi_by_Albert_Tournaire.jpg" target="_blank">
+                        <img src="assets\delphi-by-albert-tournaire.png" alt="Delphi by Albert Tournaire, 1894" 
+                        style="width: 45vw; height: 60vh;"></a>
+                </div>
+                <div class="delphi-description-pic-title">
+                    <p><i>Sanctuary of Delphi, 300 B.C.</i> Artist's reconstruction of main site 
+                        by architect Albert Tournaire, 1894.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="delphi-description-2">
+            <div class="delphi-description-2-pic-container">
+                <div class ="delphi-description-2-pic-image">
+                    <a href ="https://www.greecetravel.com/delphi/ancient-delphi.html" target="_blank">
+                        <img src="assets\delphi-description-2.png" alt="Delphi ruins - aerial view" 
+                        style="width: 40vw; height: 75vh;"></a>
+                </div>
+                <div class="delphi-description-2-pic-title">
+                    <p>Modern aerial view of the heart of the main santuary.
+                    </p>
+                </div>
+            </div>
+            <div class="delphi-description-2-text">
+                <p>A focal point for international diplomacy at the time, the leagues and kingdoms of the 
+                    ancient Greek city-states would provide insurance for 
+                    their treaties by leaving some of their finest art and treasures, under 
+                    lock-and-key, at Delphi. Also, most major Greek city-states had their own cultural shrines 
+                    at Delphi, making it a truly international religious center. 
+                </p>
+                <div class ="delphi-description-text-2">    
+                    <p>Furthermore, women from 
+                        anywhere in the Greek world could seek physical protection at Delphi by becoming employed 
+                        there as servants or priestesses – if they needed to flee trouble at home. Today, Delphi 
+                        is the location of some of the best-preserved ruins from ancient Greek culture.
+                    </p>
+                </div>    
+            </div>
+        </div>
+        <div class="delphi-oracle-title">
+            <p>-<u>The Oracle of Delphi</u></p>
+        </div>
+        <div class="delphi-oracle">
+            <div class="delphi-oracle-text">
+                <p>Beyond all of the the mighty monuments, ornate sculpture, sophisticated artwork, and lavish ritual of 
+                    Delphi, a single person would out-shine the rest of Delphi’s legacy. The Pythia was the 
+                    title of the high priestess of Delphi, who also served as its primary oracle. The role of 
+                    Pythia as spiritual leader of Delphi was established around 1000 B.C., outdating nearly all 
+                    of Delphi’s architecture and other traditions.
+                </p>
+                <div class="delphi-oracle-text-2">
+                    <p>Similar to the rest of the priestly class at Delphi, the Pythia would be selected for her 
+                        powers of spiritual divination, and she was chosen from among the women of low-birth 
+                        in the region. As high priestess, she was widely sought after by kings and commoners 
+                        alike for her divine prophecies. The Oracle at Delphi was the most prestigious and 
+                        authoritative oracle in classical Greek culture, and the Pythia of the Oracle of Delphi
+                        was among the most powerful women of pre-Roman Europe.
+                    </p>
+                </div>
+            </div>
+            <div class="delphi-oracle-pic-container">
+                <div class ="delphi-oracle-pic-image">
+                    <a href ="https://en.wikipedia.org/wiki/Pythia#/media/File:Eug%C3%A8ne_Delacroix_-_Lycurgus_Consulting_the_Pythia_-_Google_Art_Project.jpg"
+                        target="_blank"><img src="assets\oracle-of-delphi.png" alt="Lycurgus Consulting the Pythia" 
+                        style="width: 40vw; height: 75vh;"></a>
+                </div>
+                <div class="delphi-oracle-pic-title">
+                    <p><i>Lycurgus Consulting the Pythia</i>, by Eugène Delacroix, 1845.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="delphi-apollo-title">
+            <p>-<u>Temple of Apollo</u></p>
+        </div>
+        <div class="delphi-apollo">
+            <div class="delphi-apollo-text">
+                <p>The ruins we see at the Temple of Apollo at Delphi today are actually from the fifth construction 
+                    of a temple at the location. According to ancient tradition, from sources including the 
+                    ancient Greek poet Pindar, the first major temple at the location was likely actually to honor 
+                    the Apollo’s sister, the Goddess Dimeter, and was likely made of olive wood and beeswax.
+                </p>
+                <div class="delphi-apollo-text-2">
+                    <p>After a succession of fires and earthquakes destroyed older versions of Delphi’s principal 
+                        temple, the ultimate version was erected at about 500 B.C., as an international project funded
+                        by Athens and its allies. 
+                    </p>
+                </div>
+            </div>
+            <div class="delphi-apollo-pic-container">
+                <div class ="delphi-apollo-pic-image">
+                    <a href ="https://en.wikipedia.org/wiki/Delphi#/media/File:Delphi_-_panoramio_(3).jpg"
+                        target="_blank"><img src="assets\the-temple-of-apollo.png" alt="Modern view of the Temple of Apollo" 
+                        style="width: 45vw; height: 70vh;"></a>
+                </div>
+                <div class="delphi-apollo-pic-title">
+                    <p>Modern view of the Temple of Apollo (looking East), which was the principal temple of 
+                        ancient Delphi.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="delphi-apollo-2">
+             <div class="delphi-apollo-2-pic-container">
+                <div class ="delphi-apollo-2-pic-image">
+                    <a href ="https://www.anasynthesis.co.uk/index.php/delphi/temple-of-apollo"
+                        target="_blank"><img src="assets\the-temple-of-apollo-2.png" alt="Digital reconstruction of the Temple of Apollo at Delphi" 
+                        style="width: 45vw; height: 70vh;"></a>
+                </div>
+                <div class="delphi-apollo-2-pic-title">
+                    <p>Digital reconstruction of the Temple of Apollo and surrounding monuments, by Elena C. Partida, 2013.
+                    </p>
+                </div>
+            </div>
+            <div class="delphi-apollo-2-text">
+                <p>The main body and foundation of the temple was constructed out of local white granite, and adorned with 
+                    imported marble statuary and frescos. Doric-style granite columns supported a solid-stone ceiling over 
+                    60 feet high, and the gable was likely pained white, blue, red, or gold at different times. The marble 
+                    inner-sanctum of the temple was finished internally in elaborately carved olive wood, and was host to 
+                    ceremonies which are still shrouded in mystery.
+                </p>
+                <div class="delphi-apollo-2-text-2">
+                    <p>Reconstructions by modern architects of what the Temple of Apollo at Delphi would have looked like 
+                        when complete, including the long-destroyed 40 foot tall bronze statue of Apollo to the East of the 
+                        temple, illustrate how monumental the site was in its heyday.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="delphi-tholos-title">
+            <p>-<u>The Tholos of Delphi</u></p>
+        </div>
+        <div class="delphi-tholos">
+            <div class="delphi-tholos-text">
+                <p>Located about a mile East of the main ruins, the Tholos of Delphi was built close to the 
+                    Cassotis Spring, a sacred stream which was the traditional location of the religious sites 
+                    of Delphi, before the main sanctuary was constructed farther up the mountain. The Tholos itself was 
+                    constructed in the middle 4th Century B.C., as the crowning center of the Athena Pronaia 
+                    temple, which was dedicated to the Goddess Athena.         
+                </p>
+            </div>
+            <div class="delphi-tholos-pic-container">
+                <div class ="delphi-tholos-pic-image">
+                    <a href ="https://en.wikipedia.org/wiki/Tholos_of_Delphi#/media/File:IMGP3050W.jpg"
+                        target="_blank"><img src="assets\tholos-of-delphi.png" alt="Modern view of the Tholos of Delphi" 
+                        style="width: 45vw; height: 70vh;"></a>
+                </div>
+                <div class="delphi-tholos-pic-title">
+                    <p>Modern view of the ruins of the Tholos of Delphi, at the Athena Pronaia Shrine
+                        outside main sanctuary complex.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="delphi-tholos-2">
+            <div class="delphi-tholos-2-pic-container">
+                <div class ="delphi-tholos-2-pic-image">
+                    <a href ="http://www.goddess-athena.org/Museum/Temples/Delphi/index.htm"
+                        target="_blank"><img src="assets\tholos-of-delphi-3.png" alt="Artist's interpretation of the Athena Pronaia Shrine" 
+                        style="width: 45vw; height: 70vh;"></a>
+                </div>
+                <div class="delphi-tholos-2-pic-title">
+                    <p>Artist's interpretation of the ancient Athena Pronaia Shrine, including the Tholos, by Roy George, 1999.
+                    </p>
+                </div>
+            </div>
+            <div class="delphi-tholos-2-text">
+                <p>Ancient visitors from most of Greece would normally travel West to reach Delphi, and would therefore 
+                    pass by the Athena Pronaia temple on their way to visit the rest of the sanctuary. 
+                    Pilgrims would wash themselves in the sacred spring, and be spiritually cleansed by an 
+                    unknown ritual at the Tholos, before being allowed further into Delphi.          
+                </p>
+            </div>
+        </div>
+        <div class="delphi-tholos-3">
+            <div class="delphi-tholos-3-text">
+                <p>The Tholos had 26-foot-high Doric style columns constructed of polished local granite. 
+                    The exact contents of the frescos and carvings on the gable above the columns continues to 
+                    be a hotly-debated topic among historians.
+                </p> 
+                    <div class="delphi-tholos-3-text-2">
+                        <p>Some contemporary accounts describe highly detailed carvings of scenes of battle 
+                            between the Hellenic Gods and their enemies, the infamous Titans – alluding to the 
+                            mythological purification of the Earth by the gods. Other accounts suggest 
+                            scenes of battle between Amazon warriors and their enemies, or full-bodied 
+                            statuary of heroes, or exquisite statuary of Athena herself.
+                        </p>
+                            <div class="delphi-tholos-3-text-3">
+                                <p>Sadly, like most of Delphi,
+                                    the temple was so badly damaged that all accounts we have of the original artwork is 
+                                    allegorical. The Tholos had a domed or dual-capulla roof, which contemporary sources 
+                                    agree was finished in layers of red clay tiles.              
+                                </p>
+                            </div>
+                    </div>
+            </div>
+            <div class="delphi-tholos-3-pic-container">
+                <div class ="delphi-tholos-3-pic-image">
+                    <a href ="https://sketchfab.com/3d-models/tholos-of-delphi-85f05aa08aac4c6fa16e5e5e04f36627"
+                        target="_blank"><img src="assets\tholos-of-delphi-2.png" alt="Digital reconstruction of the Tholos of Delphi" 
+                        style="width: 45vw; height: 70vh;"></a>
+                </div>
+                <div class="delphi-tholos-3-pic-title">
+                    <p>Digital interpretation of the the basic structure of Tholos at Delphi, by Hephaestus Lab, 2005.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="delphi-theatre-title">
+            <p>-<u>Classical Theatre at Delphi</u></p>
+        </div>
+        <div class="delphi-theatre">
+            <div class="delphi-theatre-text">
+                <p>Similar to the agora (or marketplace), the theatre was an architectural hallmark of ancient 
+                    Greek civilization, and theatres can be found in nearly every ancient Greek community. The 
+                    theatre at Delphi was built further up the hill from the Temple of Apollo, giving spectators an 
+                    unrivaled view of the rest of the sanctuary, and the valley below. 
+                </p>
+                    <div class="delphi-theatre-text-2">
+                        <p>Added to the sanctuary during the 4th Century B.C., the theatre was expanded and 
+                            improved several times. The koilon (seating) leans against the natural slope of 
+                            the mountain, and is assembled using local white granite. The stage would have 
+                            been covered in sand from the nearby shoreline at the Gulf of Corinth, or swept 
+                            clean, depending on the demands of the event.       
+                        </p>
+                    </div>
+            </div>
+            <div class="delphi-theatre-pic-container">
+                <div class ="delphi-theatre-pic-image">
+                    <a href ="https://en.wikipedia.org/wiki/Delphi#/media/File:Delfoi_temple_skyline_view.jpg"
+                        target="_blank"><img src="assets\theatre-of-delphi.png" alt="Modern view of the Theatre of Delphi" 
+                        style="width: 45vw; height: 70vh;"></a>
+                </div>
+                <div class="delphi-theatre-pic-title">
+                    <p>Modern view of the Theatre of Delphi.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="delphi-theatre-2">
+            <div class="delphi-theatre-2-pic-container">
+                <div class ="delphi-theatre-2-pic-image">
+                    <a href ="https://www.pinterest.com/pin/563724078350605538/"
+                        target="_blank"><img src="assets\theatre-of-delphi-2.png" alt="Artist's interpretation of the ancient Theatre of Delphi" 
+                        style="width: 45vw; height: 70vh;"></a>
+                </div>
+                <div class="delphi-theatre-2-pic-title">
+                    <p><i>Heavenly Stage</i>, by Sara Wilhoit, 2008.
+                    </p>
+                </div>
+            </div>
+            <div class="delphi-theatre-2-text">
+                <p>The eastern side of the koilon abutted a small aqueduct, which caried water from the sacred 
+                    Spring of Cassotis to a fountain near the Temple of Apollo. During the play or 
+                    ceremony, the sound of running water would have accompanied the verse and poetry being 
+                    performed on stage. The theatre continued to be used under Roman control of Greece, 
+                    long after the rest of the sanctuary had become obsolete, until probably the early 
+                    6th Century A.D. 
+                </p>
+            </div>
+        </div>
+        <div class="delphi-stadium-title">
+            <p>-<u>The Pythian Stadium</u></p>
+        </div>
+        <div class="delphi-stadium">
+            <div class="delphi-stadium-text">
+                <p>While the mountain-top stadium at Delphi was hardly the largest stadium in the classical 
+                    Greek world, it certainly was one of the most important. From time immemorable, the nations 
+                    of Greece would compete against each other in ritual athletic competitions – a much less destructive 
+                    alternative to seeking honor exclusively on the battlefield! 
+                </p>
+                    <div class="delphi-stadium-text-2">
+                        <p>Delphi was host to the Pythian Games, an older counterpart to the more famous 
+                            Olympic games in the Peloponnese. The Pythian and Olympic Games were both 
+                            held at four-year intervals, offset by two years from each other.       
+                        </p>
+                    </div>
+            </div>
+            <div class="delphi-stadium-pic-container">
+                <div class ="delphi-stadium-pic-image">
+                    <a href ="https://www.greeka.com/sterea/delphi/sightseeing/ancient-stadium/"
+                        target="_blank"><img src="assets\stadium-of-delphi-3.png" alt="Modern view of the Pythian Stadium" 
+                        style="width: 45vw; height: 70vh;"></a>
+                </div>
+                <div class="delphi-stadium-pic-title">
+                    <p>Modern view of the Stadium of Delphi (looking East).
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="delphi-stadium-2">
+                        <div class="delphi-stadium-2-pic-container">
+                <div class ="delphi-stadium-2-pic-image">
+                    <a href ="https://www.theplaka.com/delphi/pythiangame/index.htm/"
+                        target="_blank"><img src="assets\stadium-of-delphi.png" alt="Modern view of the Pythian Stadium2" 
+                        style="width: 45vw; height: 70vh;"></a>
+                </div>
+                <div class="delphi-stadium-2-pic-title">
+                    <p>Modern view of the Stadium of Delphi (looking West).
+                    </p>
+                </div>
+            </div>
+            <div class="delphi-stadium-2-text">
+                <p>The Pythian games began as a simi-formal event, including only local athletes, starting 
+                    probably about 800 B.C., some 300 years before the Olympic Games. Conducted in the fall 
+                    season, the games were held in honor of the Pythia (high priestess) of Delphi, and the 
+                    mythological victory of the Hellenic God Apollo over his enemies, the Titans, after a 
+                    legendary battle at Delphi. Around 500 B.C., the Panhellenic Games became formalized into 
+                    regular competitions with standard rules, and enjoyed wide international participation.
+                </p>
+                    <div class="delphi-stadium-2-text-2">
+                        <p>The Pythian Stadium started humbly as a mere clearing in the forest, but was improved over 
+                            the centuries with koilon (seating) hewn from local granite, and an indoor gymnasium where 
+                            the athletes could warm-up before competitions. Ornate stone carvings, bronze statues, 
+                            embossed frescos, and other artwork depicting athletic competition and divine victory
+                            (as described by contemporary witnesses) has sadly been lost to the ages.      
+                        </p>
+                    </div>
+            </div>
+        </div>
+        <div class="delphi-stadium-3">
+            <div class="delphi-stadium-3-text">
+                <p>Sporting events held in the Pythian games were foot-races (including 1 lap, 10 laps, 
+                    and 20 laps of the stadium), wrestling, long jump, javelin throwing, archery, and discus. 
+                </p>
+                    <div class="delphi-stadium-3-text">
+                        <p>Unlike the original Olympic Games, the Pythian Games would have included both men’s 
+                            and women’s events. The stadium at Delphi would have held some 2,000 spectators, and 
+                            bronze trumpets would have sounded the opening and closing of each competition.       
+                        </p>
+                    </div>
+            </div>
+            <div class="delphi-stadium-3-pic-container">
+                <div class ="delphi-stadium-3-pic-image">
+                    <a href ="https://en.wikipedia.org/wiki/Pythian_Games#/media/File:Delphi_stadium_starting_line_DSC06301.jpg"
+                        target="_blank"><img src="assets\stadium-of-delphi-2.png" alt="Starting line at the Pythian Stadium" 
+                        style="width: 45vw; height: 120vh;"></a>
+                </div>
+                <div class="delphi-stadium-3-pic-title">
+                    <p>The ancient starting line, where races would begin.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
