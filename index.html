@@ -9,18 +9,43 @@
 <body onload="startTime()">
     <div class="menu-container">
         <div class="menu">
-          <div class="clock-container"> Current Time in Delphi:
-              <div id="clockDisplay"></div>
-          </div>
-          <div class="signup">Sign Up</div>
-          <div class="login">Login</div>
+            <div class="clock-container"> Current Time in Delphi:
+                <div id="clockDisplay"></div>
+            </div>
+            <div id="test" onMouseOver = "test()" onMouseOut = "test2()">Test</div>
+            <button id="rolln">Delphi be Rolln'</div>
         </div>
     </div>
-    <div class="banner-container">
-        <div class="banner"><img src="assets\panorama-athena-pronaia.png" width="1200vw" height="500vh"/>
+    <div class ="carousel-container">
+        <div class ="carousel-list">
+            <div class ="carousel-oracle" onMouseOver = "carouselOracle()">
+                <img src="assets\oracle-of-delphi.png" width="90vw" height="90vh"/>
+                <p>The Oracle</p>
+            </div>
+            <div class ="carousel-temple" onMouseOver = "carouselTemple()">
+                <img src="assets\the-temple-of-apollo.png" width="90vw" height="90vh"/>
+                <p>The Temple</p>
+            </div>
+            <div class ="carousel-tholos" onMouseOver = "carouselTholos()">
+                <img src="assets\tholos-of-delphi.png" width="90vw" height="90vh"/>
+                <p>The Tholos</p>
+            </div>
+            <a href="#delphi-theatre-title">
+                <div class ="carousel-theatre" onMouseOver = "carouselTheatre()">
+                    <img src="assets\theatre-of-delphi.png" width="90vw" height="90vh"/>
+                    <p>The Theatre</p>
+                </div>
+            </a>
+            <button id ="button-stadium" onMouseOver = "carouselStadium()" onClick="document.getElementById('delphi-stadium-title').scrollIntoView();">
+                <img src="assets\stadium-of-delphi-3.png" width="90vw" height="90vh"/>
+                The Stadium
+            </button>
+        </div>
+        <div class = "carousel-mainpic">
+            <div id = "mainpic"><img src="assets\panorama-athena-pronaia.png" width="1000vw" height="505vh"/>
+        </div>
         </div>
     </div>
-
     <div class="delphi-container">
         <div class="delphi-description-title">
             <p>-<u>Sanctuary of Delphi</u></p>
@@ -250,7 +275,7 @@
                 </div>
             </div>
         </div>
-        <div class="delphi-theatre-title">
+        <div id="delphi-theatre-title">
             <p>-<u>Classical Theatre at Delphi</u></p>
         </div>
         <div class="delphi-theatre">
@@ -303,7 +328,7 @@
                 </p>
             </div>
         </div>
-        <div class="delphi-stadium-title">
+        <div id="delphi-stadium-title">
             <p>-<u>The Pythian Stadium</u></p>
         </div>
         <div class="delphi-stadium">

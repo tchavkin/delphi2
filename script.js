@@ -36,3 +36,32 @@ function renderTime(offset) {
   }
   
   renderTime(-2);
+
+
+function test() {
+console.log("hover")
+}
+
+function test2() {
+    console.log("unhover")
+}
+
+function carouselOracle() {
+    document.getElementById("mainpic").innerHTML = "<img src=\"assets/oracle-of-delphi.png\" width=\"1000vh\" height=\"505vh\">"
+}
+
+function carouselTemple() {
+    document.getElementById("mainpic").innerHTML = "<img src=\"assets/the-temple-of-apollo.png\" width=\"1000vh\" height=\"505vh\">"
+}
+
+function carouselTholos() {
+    document.getElementById("mainpic").innerHTML = "<img src=\"assets/tholos-of-delphi.png\" width=\"1000vh\" height=\"505vh\">"
+}
+
+function carouselTheatre() {
+    document.getElementById("mainpic").innerHTML = "<img src=\"assets/theatre-of-delphi.png\" width=\"1000vh\" height=\"505vh\">"
+}
+
+function carouselStadium() {
+    document.getElementById("mainpic").innerHTML = "<img src=\"assets/stadium-of-delphi-3.png\" width=\"1000vh\" height=\"505vh\">"
+}

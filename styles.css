@@ -4,6 +4,11 @@
     box-sizing: border-box;
   }
 
+  a:visited { 
+    text-decoration: none; 
+    color: blue; 
+   }
+
 .menu-container {
     color: #fff;
     background-color: #002c5e;
@@ -29,22 +34,72 @@
     justify-content: space-between;
   }
 
-.login {
+#rolln {
     margin-left: 20px;
   }
 
-.signup {
+#test {
     margin-left: auto;
   }
 
-.banner-container {
+.carousel-container {
     background-color: black;
+    padding-top: 5vw;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.carousel-list {
+    color:rgb(7, 244, 248);
+    text-align: center;
+    padding-left: 2vw
+  }
+  
+.carousel-oracle {
+    background-color: black;
+    border: 1px solid orangered;
+    padding: 1vh 1vh 1vh 1vh;
+    display: flex;
+  }
+
+.carousel-temple {
+    background-color: black;
+    border: 1px solid yellow;
+    padding: 1vh 1vh 1vh 1vh;
+    display: flex;
+  }
+
+.carousel-tholos {
+    background-color: black;
+    border: 1px solid green;
+    padding: 1vh 1vh 1vh 1vh;
+    display: flex;
+  }
+
+.carousel-theatre {
+    background-color: black;
+    border: 1px solid blue;
+    padding: 1vh 1vh 1vh 1vh;
+    display: flex;
+  }
+
+#button-stadium {
+    color: white;
+    background-color: black;
+    border: 1px solid purple;
+    padding: 1vh 1vh 1vh 1vh;
+    display: flex;
+  }
+
+.carousel-mainpic {
+    color: aqua;
+    text-align: center;
+    border: 1px solid purple;
+  }
+.mainpic  {
     text-align: center;
   }
 
-.banner {
-    text-align: center;
-  }
 
 .delphi-container {
   border: 1px solid blue;
@@ -291,7 +346,7 @@
     padding: 1vh 1vw;
     display: flex;
   }
-.delphi-theatre-title {
+#delphi-theatre-title {
     border: 1px solid red;
     text-align: left;
     font-family: "TimesNewRoman";
@@ -348,7 +403,7 @@
     padding: 1vh 1vw;
     display: flex;
   }
-.delphi-stadium-title {
+#delphi-stadium-title {
     border: 1px solid red;
     text-align: left;
     font-family: "TimesNewRoman";
