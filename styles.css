@@ -3,472 +3,458 @@
     padding: 0;
     box-sizing: border-box;
   }
-
-  a:visited { 
+a {
+    text-decoration: none;
+  }
+a:visited { 
     text-decoration: none; 
-    color: blue; 
-   }
-
-.menu-container {
+  }
+ /*menu*/
+#menu-container {
     color: #fff;
     background-color: #002c5e;
     padding: 10px 0;
     display: flex;
     justify-content: center;
   }
-
-.clock-container  {
+#menu {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  }
+#clock-container  {
     display: flex;
-}
-
-
+  }
 #clockDisplay {
-    color:rgb(255, 255, 255);
+    color:white;
     padding: 0px 0px 0px 5px
-}
+  }
+ /*end menu*/
 
-
-.menu {
-    width: 900px;
-    display: flex;
-    justify-content: space-between;
+#header {
+    color: white;
+    background-color: black;
+    text-align:center;
+    font-size: 14vh;
+    padding-top: 10vh; 
   }
 
-#rolln {
-    margin-left: 20px;
-  }
-
-#test {
-    margin-left: auto;
-  }
-
-.carousel-container {
+ /*carousel*/
+#carousel-container {
     background-color: black;
     padding-top: 5vw;
     display: flex;
     flex-wrap: wrap;
   }
-
-.carousel-list {
-    color:rgb(7, 244, 248);
+#mainpic  {
+    margin: auto;
+    padding: 2vh;
     text-align: center;
-    padding-left: 2vw
   }
-  
-.carousel-oracle {
-    background-color: black;
-    border: 1px solid orangered;
-    padding: 1vh 1vh 1vh 1vh;
-    display: flex;
+#carousel-list {
+    padding-left: 2vw;
   }
-
-.carousel-temple {
-    background-color: black;
-    border: 1px solid yellow;
-    padding: 1vh 1vh 1vh 1vh;
-    display: flex;
-  }
-
-.carousel-tholos {
-    background-color: black;
-    border: 1px solid green;
-    padding: 1vh 1vh 1vh 1vh;
-    display: flex;
-  }
-
-.carousel-theatre {
-    background-color: black;
-    border: 1px solid blue;
-    padding: 1vh 1vh 1vh 1vh;
-    display: flex;
-  }
-
-#button-stadium {
+#carousel-oracle {
+    border: solid 3px black;
     color: white;
-    background-color: black;
-    border: 1px solid purple;
+    text-align: left;
+    background-color: rgb(6, 40, 61);
     padding: 1vh 1vh 1vh 1vh;
     display: flex;
   }
-
-.carousel-mainpic {
-    color: aqua;
-    text-align: center;
-    border: 1px solid purple;
+#carousel-oracle-text {
+    margin: auto;
   }
-.mainpic  {
-    text-align: center;
+#carousel-temple {
+    border: solid 3px black;
+    color: white;
+    text-align: left;
+    background-color: rgb(6, 40, 61);
+    padding: 1vh 1vh 1vh 1vh;
+    display: flex;
+  }
+#carousel-temple-text {
+    margin: auto;
+  }
+#carousel-tholos {
+    border: solid 3px black;
+    color: white;
+    text-align: left;
+    background-color: rgb(6, 40, 61);
+    padding: 1vh 1vh 1vh 1vh;
+    display: flex;
+  }
+#carousel-tholos-text {
+    margin: auto;
+  }
+#carousel-theatre {
+    border: solid 3px black;
+    color: white;
+    text-align: left;
+    background-color: rgb(6, 40, 61);
+    padding: 1vh 1vh 1vh 1vh;
+    display: flex;
+  }
+#carousel-theatre-text {
+    margin: auto;
+  }
+#carousel-stadium {
+    border: solid 3px black;
+    color: white;
+    text-align: left;
+    background-color: rgb(6, 40, 61);
+    padding: 1vh 1vh 1vh 1vh;
+    display: flex;
+  }
+#carousel-stadium-text {
+    margin: auto;
+  }
+ /*end carousel*/
+
+
+#main-container {
+    background-color: black;
+    color: white;
+    padding: 60px 20px;
+    display: flex;
+    flex-wrap: wrap;
   }
 
-
-.delphi-container {
-  border: 1px solid blue;
-  background-color: black;
-  color: white;
-  padding: 60px 20px;
-  display: flex;
-  flex-wrap: wrap;
+.section-divider {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2vh 0vh 2vh 0vh
   }
 
   /*Description*/
-.delphi-description {
-    border: 1px solid red;
+#description {
     font-family: "TimesNewRoman";
     padding: 1vh 1vw;
     display: flex;
   }
-.delphi-description-title {
-    border: 1px solid red;
+#description-title {
     text-align: left;
     font-family: "TimesNewRoman";
     font-size: 14vh;
   }
-.delphi-description-pic-container {
+#description-pic-container {
     padding-left: 1vw;
   }
-.delphi-description-pic-title {
+#description-pic-title {
     font-size: 4vh;
   }
-.delphi-description-pic-image {
+#description-pic-image {
     padding-top: 18vh;
     padding-right: 2vh;
   }
-.delphi-description-text {
+#description-text {
     text-indent: 3vw;
     text-align: left;
     font-size: 6vh;
     padding-top: 8vh;
     padding-left: 1vw;
   }
-
-.delphi-description-2 {
-    border: 1px solid red;
+#description-2 {
     font-family: "TimesNewRoman";
     padding: 1vh 1vw;
     display: flex;
   }
-.delphi-description-2-pic-container {
+#description-2-pic-container {
     padding-left: 1vw;
   }
-.delphi-description-2-pic-title {
+#description-2-pic-title {
     font-size: 4vh;
   }
-.delphi-description-2-pic-image {
+#description-2-pic-image {
     padding-top: 20vh;
     padding-right: 2vh;
   }
-.delphi-description-2-text {
+#description-2-text {
     text-indent: 3vw;
     text-align: left;
     font-size: 6vh;
     padding-top: 10vh;
-    padding-bottom:15vh;
     padding-left: 1vw;
   }
   /*End Description*/
 
   /*Oracle Section*/
-.delphi-oracle {
-    border: 1px solid red;
+#oracle {
     font-family: "TimesNewRoman";
     padding: 1vh 1vw;
     display: flex;
   }
-.delphi-oracle-title {
-    border: 1px solid red;
+#oracle-title {
     text-align: left;
     font-family: "TimesNewRoman";
     font-size: 14vh;
   }
-.delphi-oracle-pic-container {
+#oracle-pic-container {
     padding-left: 2vw;
   }
-.delphi-oracle-pic-title {
+#oracle-pic-title {
     font-size: 4vh;
   }
-.delphi-oracle-pic-image {
+#oracle-pic-image {
     padding-top: 16vh;
     padding-right: 2vh;
   }
-.delphi-oracle-text {
+#oracle-text {
     text-indent: 3vw;
     text-align: left;
     font-size: 6vh;
     padding-top: 6vh;
-    padding-bottom:15vh;
     padding-left: 1vw;
   }
   /*End Oracle Section*/
 
   /*Apollo Section*/
-.delphi-apollo {
-    border: 1px solid red;
+#temple {
     font-family: "TimesNewRoman";
     padding: 1vh 1vw;
     display: flex;
   }
-.delphi-apollo-title {
-    border: 1px solid red;
+#temple-title {
     text-align: left;
     font-family: "TimesNewRoman";
     font-size: 14vh;
   }
-.delphi-apollo-pic-container {
+#temple-pic-container {
     padding-left: 2vw;
   }
-.delphi-apollo-pic-title {
+#temple-pic-title {
     font-size: 4vh;
   }
-.delphi-apollo-pic-image {
+#temple-pic-image {
     padding-top: 16vh;
     padding-right: 2vh;
   }
-.delphi-apollo-text {
+#temple-text {
     text-indent: 3vw;
     text-align: left;
     font-size: 6vh;
     padding-top: 6vh;
     padding-left: 1vw;
   }
-
-.delphi-apollo-2 {
-    border: 1px solid red;
+#temple-2 {
     font-family: "TimesNewRoman";
     padding: 1vh 1vw;
     display: flex;
   }
-.delphi-apollo-2-pic-container {
+#temple-2-pic-container {
     padding-right: 2vw;
   }
-.delphi-apollo-2-pic-title {
+#temple-2-pic-title {
     font-size: 4vh;
   }
-.delphi-apollo-2-pic-image {
+#temple-2-pic-image {
     padding-top: 16vh;
     padding-right: 2vh;
   }
-.delphi-apollo-2-text {
+#temple-2-text {
     text-indent: 3vw;
     text-align: left;
     font-size: 6vh;
     padding-top: 6vh;
-    padding-bottom:15vh;
     padding-left: 1vw;
   }
 
   /*End Apollo Section*/
 
   /*Tholos Section*/
-.delphi-tholos {
-    border: 1px solid red;
+#tholos {
     font-family: "TimesNewRoman";
     padding: 1vh 1vw;
     display: flex;
   }
-.delphi-tholos-title {
-    border: 1px solid red;
+#tholos-title {
     text-align: left;
     font-family: "TimesNewRoman";
     font-size: 14vh;
   }
-.delphi-tholos-pic-container {
+#tholos-pic-container {
     padding-left: 2vw;
   }
-.delphi-tholos-pic-title {
+#tholos-pic-title {
     font-size: 4vh;
   }
-.delphi-tholos-pic-image {
+#tholos-pic-image {
     padding-top: 8vh;
     padding-right: 2vh;
   }
-.delphi-tholos-text {
+#tholos-text {
     text-indent: 3vw;
     text-align: left;
     font-size: 6vh;
     padding-top: 6vh;
     padding-left: 1vw;
   }
-
-.delphi-tholos-2 {
-    border: 1px solid red;
+#tholos-2 {
     font-family: "TimesNewRoman";
     padding: 1vh 1vw;
     display: flex;
   }
-.delphi-tholos-2-pic-container {
+#tholos-2-pic-container {
     padding-right: 2vw;
   }
-.delphi-tholos-2-pic-title {
+#tholos-2-pic-title {
     font-size: 4vh;
   }
-.delphi-tholos-2-pic-image {
+#tholos-2-pic-image {
     padding-top: 10vh;
     padding-right: 2vh;
   }
-.delphi-tholos-2-text {
+#tholos-2-text {
     text-indent: 3vw;
     text-align: left;
     font-size: 6vh;
     padding-top: 8vh;
     padding-left: 1vw;
   }
-
-.delphi-tholos-3 {
-    border: 1px solid red;
+#tholos-3 {
     font-family: "TimesNewRoman";
     padding: 1vh 1vw;
     display: flex;
   }
-.delphi-tholos-3-pic-container {
+#tholos-3-pic-container {
     padding-left: 2vw;
   }
-.delphi-tholos-3-pic-title {
+#tholos-3-pic-title {
     font-size: 4vh;
   }
-.delphi-tholos-3-pic-image {
+#tholos-3-pic-image {
     padding-top: 19vh;
     padding-right: 2vh;
   }
-.delphi-tholos-3-text {
+#tholos-3-text {
     text-indent: 3vw;
     text-align: left;
     font-size: 6vh;
     padding-top: 8vh;
-    padding-bottom:15vh;
     padding-left: 1vw;
   }
   /*End Tholos Section*/
 
   /*Theatre Section*/
-.delphi-theatre {
-    border: 1px solid red;
+#theatre {
     font-family: "TimesNewRoman";
     padding: 1vh 1vw;
     display: flex;
   }
-#delphi-theatre-title {
-    border: 1px solid red;
+#theatre-title {
     text-align: left;
     font-family: "TimesNewRoman";
     font-size: 14vh;
   }
-.delphi-theatre-pic-container {
+#theatre-pic-container {
     padding-left: 2vw;
   }
-.delphi-theatre-pic-title {
+#theatre-pic-title {
     font-size: 4vh;
   }
-.delphi-theatre-pic-image {
+#theatre-pic-image {
     padding-top: 18vh;
     padding-right: 2vh;
   }
-.delphi-theatre-text {
+#theatre-text {
     text-indent: 3vw;
     text-align: left;
     font-size: 6vh;
     padding-top: 6vh;
     padding-left: 1vw;
   }
-
-.delphi-theatre-2 {
-    border: 1px solid red;
+#theatre-2 {
     font-family: "TimesNewRoman";
     padding: 1vh 1vw;
     display: flex;
   }
-.delphi-theatre-2-pic-container {
+#theatre-2-pic-container {
     padding-right: 2vw;
   }
-.delphi-theatre-2-pic-title {
+#theatre-2-pic-title {
     font-size: 4vh;
   }
-.delphi-theatre-2-pic-image {
+#theatre-2-pic-image {
     padding-top: 10vh;
     padding-right: 2vh;
   }
-.delphi-theatre-2-text {
+#theatre-2-text {
     text-indent: 3vw;
     text-align: left;
     font-size: 6vh;
     padding-top: 6vh;
-    padding-bottom: 15vh;
     padding-left: 1vw;
   }
   /*End Theatre Section*/
 
   /*Stadium Section*/
-.delphi-stadium {
-    border: 1px solid red;
-    font-family: "TimesNewRoman";
+#stadium {
+     font-family: "TimesNewRoman";
     padding: 1vh 1vw;
     display: flex;
   }
-#delphi-stadium-title {
-    border: 1px solid red;
+#stadium-title {
     text-align: left;
     font-family: "TimesNewRoman";
     font-size: 14vh;
   }
-.delphi-stadium-pic-container {
+#stadium-pic-container {
     padding-left: 2vw;
   }
-.delphi-stadium-pic-title {
+#stadium-pic-title {
     font-size: 4vh;
   }
-.delphi-stadium-pic-image {
+#stadium-pic-image {
     padding-top: 15vh;
     padding-right: 2vh;
   }
-.delphi-stadium-text {
+#stadium-text {
     text-indent: 3vw;
     text-align: left;
     font-size: 6vh;
     padding-top: 6vh;
     padding-left: 1vw;
   }
-
-.delphi-stadium-2 {
-    border: 1px solid red;
+#stadium-2 {
     font-family: "TimesNewRoman";
     padding: 1vh 1vw;
     display: flex;
   }
-.delphi-stadium-2-pic-container {
+#stadium-2-pic-container {
     padding-left: 2vw;
   }
-.delphi-stadium-2-pic-title {
+#stadium-2-pic-title {
     font-size: 4vh;
   }
-.delphi-stadium-2-pic-image {
+#stadium-2-pic-image {
     padding-top: 18vh;
     padding-right: 2vh;
   }
-.delphi-stadium-2-text {
+#stadium-2-text {
     text-indent: 3vw;
     text-align: left;
     font-size: 6vh;
     padding-top: 6vh;
     padding-left: 1vw;
   }
-
-.delphi-stadium-3 {
-    border: 1px solid red;
+#stadium-3 {
     font-family: "TimesNewRoman";
     padding: 1vh 1vw;
     display: flex;
   }
-.delphi-stadium-3-pic-container {
+#stadium-3-pic-container {
     padding-left: 2vw;
   }
-.delphi-stadium-3-pic-title {
+#stadium-3-pic-title {
     font-size: 4vh;
     padding-bottom: 15vh;
   }
-.delphi-stadium-3-pic-image {
+#stadium-3-pic-image {
     padding-top: 18vh;
     padding-right: 2vh;
   }
-.delphi-stadium-3-text {
+#stadium-3-text {
     text-indent: 3vw;
     text-align: left;
     font-size: 6vh;
